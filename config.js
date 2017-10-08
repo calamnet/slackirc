@@ -1,5 +1,5 @@
 // Prepare
-const username = process.env.SLACKIRC_NICKNAME || 'shamelessbot'
+const username = process.env.SLACKIRC_NICKNAME || 'shamelessbot2'
 const server = process.env.SLACKIRC_SERVER || 'irc.utonet.org'
 const password = process.env.SLACKIRC_PASSWORD || 'PBJs%%'
 const token = process.env.SLACKIRC_TOKEN
