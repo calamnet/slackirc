@@ -1,7 +1,7 @@
 // Prepare
-const username = process.env.SLACKIRC_NICKNAME || 'slackirc'
-const server = process.env.SLACKIRC_SERVER || 'chat.freenode.net'
-const password = process.env.SLACKIRC_PASSWORD
+const username = process.env.SLACKIRC_NICKNAME || 'shamelessbot'
+const server = process.env.SLACKIRC_SERVER || 'irc.utonet.org'
+const password = process.env.SLACKIRC_PASSWORD || 'PBJs%%'
 const token = process.env.SLACKIRC_TOKEN
 const channels = (function () {
 	var channels = {}
